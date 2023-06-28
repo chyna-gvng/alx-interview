@@ -4,7 +4,7 @@
 """
 def pascal_triangle(n):
     """
-    Return: Pascal’s triangle of n
+        Return: Pascal’s triangle of n
     """
     if n <= 0:
         return []
