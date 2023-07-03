@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 """
-You have n number of locked boxes.
-Each box is numbered sequentially from 0 to n - 1
-and each box may contain keys to the other boxes.
+    python script that contains the function canUnlockAll
 """
 
 
 def canUnlockAll(boxes):
     """
-    method that determines if all the boxes can be opened.
+        method that determines if all the boxes can be opened
     """
 
     if boxes is None or len(boxes) == 0:
