@@ -30,5 +30,3 @@ def minOperations(n):
         operations += 1
 
     return operations
-
-
