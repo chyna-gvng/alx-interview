@@ -30,3 +30,7 @@ def minOperations(n):
         operations += 1
 
     return operations
+
+
+if n > 0:
+    print("Min number of operations to reach {} char: {}".format(n, minOperations(n)))
