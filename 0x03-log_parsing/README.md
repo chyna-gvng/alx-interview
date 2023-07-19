@@ -1,3 +1,3 @@
 ### ALX Interview
-Readme file for the directory *0x02-minimum_operations*  
+Readme file for the directory *0x03-log_parsing*  
 Highlight: Minimum Operations
