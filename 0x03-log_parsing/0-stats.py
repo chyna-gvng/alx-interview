@@ -4,7 +4,7 @@
     Input format:
         <IP Address> - [<date>] "GET /projects/260 HTTP/1.1"
         <status code> <file size>
-    Return: Stats
+    Return: stats
 """
 import sys
 
