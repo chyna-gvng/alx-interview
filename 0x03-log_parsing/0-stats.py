@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" reads stdin line by line and computes metrics """
+"""
+    python script that reads stdin line by line and computes metrics
+"""
 import sys
 
 
@@ -16,7 +18,9 @@ if __name__ == "__main__":
     file_size = 0
 
     def get_line(line):
-        """ parse and grab data"""
+        """
+            parse and get data
+        """
         try:
             parsed_line = line.split()
             status_code = parsed_line[-2]
