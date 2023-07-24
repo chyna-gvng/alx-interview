@@ -6,11 +6,12 @@
 
 
 def validUTF8(data):
-    # checks if most significant byte is 1
+    """
+        function that determines if a given data set represents,
+        a valid UTF-8 encoding
+    """
     mask1 = 1 << 7
-    # checks if second most significant byte is 0
     mask2 = 1 << 6
-    # keeps track of how many 1s before 0 occurs
     n_bytes = 0
 
     if not data or len(data) == 0:
