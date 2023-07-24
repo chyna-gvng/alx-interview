@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-    python script that determines if a given data set represents a valid UTF-8 encoding
+    python script that determines if a given data set represents,
+    a valid UTF-8 encoding
 """
 
 
