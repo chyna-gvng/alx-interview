@@ -6,7 +6,13 @@
 
 
 def rotate_2d_matrix(matrix):
-    """ Rotate 2D Matrix in-place """
+    """ 
+        function to rotate a 2D matrix in-place
+        Args:
+            matrix - given matrix
+        Return:
+            Rotated matrix
+    """
     matrix.reverse()
     copy_matrix = matrix.copy()
 
