@@ -6,7 +6,7 @@
 
 
 def rotate_2d_matrix(matrix):
-    """ 
+    """
         function to rotate a 2D matrix in-place
         Args:
             matrix - given matrix
