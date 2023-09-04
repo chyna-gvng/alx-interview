@@ -1,9 +1,16 @@
 #!/usr/bin/python3
-""" Module for Prime Game """
+"""
+    python script that solves the Prime Game problem
+"""
 
 
 def isWinner(x, nums):
-    """Solves Prime Game"""
+    """
+        
+        x: number of rounds
+        nums: array of n
+        returns: name of the player that won the most rounds
+    """
     if not nums or x < 1:
         return None
     n = max(nums)
