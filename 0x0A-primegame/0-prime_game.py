@@ -6,7 +6,7 @@
 
 def isWinner(x, nums):
     """
-        
+        function that determines who the winner of each game is
         x: number of rounds
         nums: array of n
         returns: name of the player that won the most rounds
